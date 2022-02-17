@@ -1,0 +1,67 @@
+body {    
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    /* background-image: url("./toa-heftiba-6bKpHAun4d8-unsplash.jpg"); */
+    background-color: rgb(82, 27, 155);
+}
+
+.container {
+    display: flex;   
+    flex-direction: column; 
+    align-items: center;
+}
+
+.main {    
+    background-color: rgb(25, 7, 43, 0.95);    
+    max-width: 600px;
+    height: 1280px;
+    margin-top: 1em;
+    padding: 2em;
+    color: white;    
+}
+
+#title {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: white;
+}
+
+#description {
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+
+#survey-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    line-height: 2em;
+    margin-bottom: 1em;
+    border-radius: 7px;
+}
+
+#favorite, #dropdown {
+    height: 30px;
+    border-radius: 7px;
+}
+
+label {
+    padding: 0.2em 0.4em 0 0;
+
+}
+
+.question {
+    padding-bottom: 0;
+    margin-bottom: 0.5em;
+}
+
+#submit {
+    height: 40px;
+    background-color: rgb(35, 163, 35);
+    color: white;
+    font-size: 20px;
+}
